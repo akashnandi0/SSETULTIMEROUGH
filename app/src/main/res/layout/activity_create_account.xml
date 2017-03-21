@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scms1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.a2j.ssetultimerough.create_account">
+
+    <Button
+        android:text="SIGNUP"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/bregister"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:hint="name"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="35px"
+        android:ems="10"
+        android:id="@+id/name1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="35px"
+        android:inputType="phone"
+        android:hint="mobile number"
+        android:ems="10"
+        android:id="@+id/mob1"
+        android:layout_below="@+id/name1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="35px"
+        android:inputType="textPersonName"
+        android:hint="username(eg scs/5657/14 )"
+        android:ems="10"
+        android:id="@+id/name2"
+        android:layout_below="@+id/mob1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="35px"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pswd"
+        android:layout_below="@+id/name2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="confirm password"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="35px"
+        android:ems="10"
+        android:id="@+id/cnfpswd"
+        android:layout_below="@+id/pswd"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="payment_mode">
+            <item>NETBANKING</item>
+            <item>CREDIT CARD</item>
+            <item>DEBIT CARD</item>
+        </string-array>
+
+</resources>

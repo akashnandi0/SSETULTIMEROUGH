@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_netbanking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bank"
+    tools:context="com.a2j.ssetultimerough.NETBANKING">
+
+    <TextView
+        android:text="WELCOME TO INTERNET BANKING"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:textStyle="italic"
+        android:textColorHint="@android:color/background_dark"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp"
+        android:id="@+id/editText15" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColorHint="@android:color/background_dark"
+        android:textStyle="italic"
+        android:ems="10"
+        android:layout_below="@+id/editText15"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/editText16" />
+
+    <Button
+        android:text="Log in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/editText16"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="81dp"
+        android:id="@+id/button26"
+        android:onClick="log"/>
+
+    <TextView
+        android:text="LOGIN"
+        android:textSize="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/textView3"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/button27"
+        android:layout_alignBaseline="@+id/button26"
+        android:layout_alignBottom="@+id/button26"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginStart="30dp"
+        android:onClick="cncl"/>
+
+</RelativeLayout>

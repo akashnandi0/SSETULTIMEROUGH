@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bank">
+        <item>UNION BANK</item>
+        <item>SBI</item>
+        <item>AXIS BANK</item>
+        <item>FEDERAL BANK</item>
+        <item>SOUTH INDIAN BANK</item>
+    </string-array>
+</resources>
